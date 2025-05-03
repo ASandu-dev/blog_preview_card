@@ -1,7 +1,14 @@
-import type { NextConfig } from "next";
+const isProd = process.env.NODE_ENV === 'production';
 
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  images: {
+    unoptimized: true,
+  },
+  assetPrefix: isProd ? '/blog_preview_card/' : '',
+  basePath: isProd ? '/blog_preview_card' : '',
+  output: 'export',
 };
 
 export default nextConfig;
