@@ -14,13 +14,13 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: hsl(47, 88%, 63%);
+    --foreground: hsl(0, 0%, 100%);
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Figtree', sans-serif;
 }
