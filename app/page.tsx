@@ -11,7 +11,7 @@ const Home = () => {
             className="rounded-xl"
             width={700}
             height={475}
-            src="/assets/images/illustration-article.svg"
+            src="./assets/images/illustration-article.svg"
             alt="Article illustration"
           />
         </header>
@@ -37,7 +37,7 @@ const Home = () => {
 
         <Box className="flex items-center mt-6">
           <Image
-            src="/assets/images/image-avatar.webp"
+            src="./assets/images/image-avatar.webp"
             alt="Greg Hooper avatar"
             width={40}
             height={40}
